@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "210783179654",
+    "firebase_url": "https://autoboro-133d2.firebaseio.com",
+    "project_id": "autoboro-133d2",
+    "storage_bucket": "autoboro-133d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210783179654:android:3cefcdd40ecb11bfc1d207",
+        "android_client_info": {
+          "package_name": "com.autoboro_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210783179654-gd4i8jv47ua72juhac5prpsqd8bv5tnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autoboro_1",
+            "certificate_hash": "3843fc778d577cd7288d40fc7c82f60cf41b55a1"
+          }
+        },
+        {
+          "client_id": "210783179654-ka8idaqucd0v2j5mi47eejun97valnde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfPc1eq6skrDX_MTqu4VvXES9n7cviyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210783179654-ka8idaqucd0v2j5mi47eejun97valnde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

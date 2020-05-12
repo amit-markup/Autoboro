@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78395ecb-62e4-4d16-9d75-52627a4b59d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/autoboro_1/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/autoboro_1/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/config/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/config/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration1/Registration1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration1/Registration1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration1/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration1/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration2/Registration2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration2/Registration2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration2/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/Registration2/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/editbusinessprofile/EditBusinessProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/editbusinessprofile/EditBusinessProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/editbusinessprofile/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/editbusinessprofile/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/gallerytab/GalleryTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/gallerytab/GalleryTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/hiringtab/HiringTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/hiringtab/HiringTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/magazinetab/MagazineTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/magazinetab/MagazineTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/magazinetab/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/magazinetab/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/profiletab/ProfileTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/profiletab/ProfileTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/statisticstab/StatisticsTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/statisticstab/StatisticsTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/statisticstab/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/statisticstab/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/uploaddealform/UploadDealForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/uploaddealform/UploadDealForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/automotivebusiness/uploaddealform/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/automotivebusiness/uploaddealform/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/changepassword/ChangePassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/changepassword/ChangePassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverdealstab/DriverDealsTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverdealstab/DriverDealsTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverdealstab/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverdealstab/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverfavoritestab/DriverFavoritesTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverfavoritestab/DriverFavoritesTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverhometab/DriverHomeTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverhometab/DriverHomeTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/drivermagazinetab/DriverMagazineTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/drivermagazinetab/DriverMagazineTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverprofiletab/DriverProfileTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverprofiletab/DriverProfileTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverprofiletab/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverprofiletab/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration1/DriverRegistration1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration1/DriverRegistration1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration1/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration1/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration2/DriverRegistration2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration2/DriverRegistration2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration2/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverregistration2/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverserviceslist/DriverServicesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverserviceslist/DriverServicesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/driverbusiness/driverserviceslist/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/driverbusiness/driverserviceslist/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/forgotpassword/ForgotPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/forgotpassword/ForgotPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/intro/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/intro/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/login/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/login/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/selectprofession/SelectProfession.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/selectprofession/SelectProfession.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/selectprofession/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/selectprofession/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/splash/Splash.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/splash/Splash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/screens/splash/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/screens/splash/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Autoboro_1.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Autoboro_1.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Autoboro_1/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Autoboro_1/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="4ce0cee" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\webkype\Desktop\Autoboro\android\app\release-key.jks" />
+    <option name="KEY_ALIAS" value="key-alias" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a9zdsgp6RhJGeTLc6MThSz9ukN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\webkype\Desktop\Autoboro\android\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78395ecb-62e4-4d16-9d75-52627a4b59d2" name="Default Changelist" comment="" />
+      <created>1586162691126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586162691126</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
