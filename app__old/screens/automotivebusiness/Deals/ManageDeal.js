@@ -114,7 +114,7 @@ class Registration2 extends React.Component {
                   </Button>
                 </Left>
                 <Body style={{paddingLeft:40}}>
-                  <Title style={{fontFamily: 'Roboto_Regular'}}>Manage Deals</Title>
+                  <Title style={{}}>Manage Deals</Title>
                 </Body>
               </Header>
               <Text style={{paddingLeft:20, marginTop:20, color:'black', fontWeight:'bold'}}> Deal Name <Text style={{color: 'red'}}>*</Text>

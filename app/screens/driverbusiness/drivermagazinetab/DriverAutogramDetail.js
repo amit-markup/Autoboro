@@ -333,7 +333,7 @@ export default class Blog extends Component {
               <Image source={require('../../../../assets/images/like.png')} style={{ maxHeight: 12, maxWidth: 12, resizeMode: 'contain', marginTop: 4 }} />
               <Text style={{ color: '#1c4478', fontSize: 10, paddingLeft: 5, paddingTop: 3 }}>Like</Text>
             </TouchableOpacity>
-            <Text style={{ fontFamily: 'Roboto-Light', fontSize: 10, fontWeight: 'bold', paddingTop: 3 }}>{Notification.countLike === '0' ? null : Notification.countLike}</Text>
+            <Text style={{  fontSize: 10, fontWeight: 'bold', paddingTop: 3 }}>{Notification.countLike === '0' ? null : Notification.countLike}</Text>
             {/* <TouchableOpacity onPress={() => { this.EditComment(Notification) }}>
               <Text style={{ color: '#1c4478', fontSize: 10, paddingLeft: 5, paddingTop: 3 }}>Edit</Text>
             </TouchableOpacity> */}
@@ -392,7 +392,7 @@ export default class Blog extends Component {
                   <Image source={require('../../../../assets/images/like.png')} style={{ maxHeight: 12, maxWidth: 12, resizeMode: 'contain', marginTop: 4 }} />
                   <Text style={{ color: '#1c4478', fontSize: 10, paddingLeft: 5, paddingTop: 3 }}>Like</Text>
                 </TouchableOpacity>
-                <Text style={{ fontFamily: 'Roboto-Light', fontSize: 10, fontWeight: 'bold', paddingTop: 3 }}>{Notification.countLike === '0' ? null : Notification.countLike}</Text>
+                <Text style={{  fontSize: 10, fontWeight: 'bold', paddingTop: 3 }}>{Notification.countLike === '0' ? null : Notification.countLike}</Text>
                 {/* <TouchableOpacity onPress={() => { this.EditComment(Notification) }}>
                   <Text style={{ color: '#1c4478', fontSize: 10, paddingLeft: 5, paddingTop: 3 }}>Edit</Text>
                 </TouchableOpacity> */}

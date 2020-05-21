@@ -111,7 +111,7 @@ export default class EventsView extends Component {
                 <View style={{}}>
                     <Text>Message</Text>
                     <Item regular style={styles.viewLabel1}>
-                    <Input style={{ color: '#000000', fontWeight: 'bold', fontSize: '15', flex: 3, textAlign: 'left', fontSize: 12, fontFamily: 'Roboto_Regular' }} placeholder='Message' onChangeText={(text) => this.setState({ Message: text })} />
+                    <Input style={{ color: '#000000', fontWeight: 'bold', fontSize: '15', flex: 3, textAlign: 'left', fontSize: 12, }} placeholder='Message' onChangeText={(text) => this.setState({ Message: text })} />
                     </Item>
                 </View>
                 <Button block style={{ width: '90%', marginLeft: '5%', marginRight: '5%', marginTop: 30, backgroundColor: '#f5900e' }} onPress={()=> this.CreateReviews()}>

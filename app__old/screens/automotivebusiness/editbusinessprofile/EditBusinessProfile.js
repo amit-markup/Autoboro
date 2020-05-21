@@ -116,7 +116,7 @@ class EditBusinessProfile extends React.Component{
         let twitter = require("../../../../assets/twitter.png");
         let languageList = this.state.languageList.map((list, index) => {
             return (
-                <Picker.Item label={list.title} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item label={list.title} value={list.id} key={index} style={{  }} />
             );
         });
 
@@ -129,7 +129,7 @@ class EditBusinessProfile extends React.Component{
                         </Button>
                     </Left>
                     <Body style={{marginLeft:50}}>
-                        <Title style={{ fontFamily: 'Roboto_Regular' }}>Edit Profile</Title>
+                        <Title style={{  }}>Edit Profile</Title>
                     </Body>
                 </Header>
 
@@ -141,7 +141,7 @@ class EditBusinessProfile extends React.Component{
                             <TouchableOpacity style={{ height: 30, width: 30, position: 'absolute', marginTop: 100, marginLeft: 240 }} onPress={this.takePicture.bind(this)}>
                                 <Image source={splashImg} style={{ height: 30, width: 30 }}></Image>
                             </TouchableOpacity>
-                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular', marginTop: 10 }}>Richard Grant</Text>
+                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10 }}>Richard Grant</Text>
                         </View>
                     </LinearGradient>
 
@@ -182,7 +182,7 @@ class EditBusinessProfile extends React.Component{
                                     onValueChange={(itemValue, itemIndex) =>
                                         this.setState({ language: itemValue })
                                     }>
-                                    <Picker.Item value='' label='Select Language' style={{ fontFamily: 'Roboto_Regular' }} />
+                                    <Picker.Item value='' label='Select Language' style={{  }} />
                                     {languageList}
                                 </Picker>
                             </View>

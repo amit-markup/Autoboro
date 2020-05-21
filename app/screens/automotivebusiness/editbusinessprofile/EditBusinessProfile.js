@@ -172,7 +172,7 @@ class EditBusinessProfile extends React.Component {
     render() {
         let languageList = this.state.languageList.map((list, index) => {
             return (
-                <Picker.Item label={list.name} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item label={list.name} value={list.id} key={index} style={{  }} />
             );
         });
         return (
@@ -201,7 +201,7 @@ class EditBusinessProfile extends React.Component {
                                 imageProps={{ resizeMode: 'cover' }}
                                 showEditButton
                             />
-                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular', marginTop: 10 }}>{this.state.firstName} {this.state.lastName}</Text>
+                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', , marginTop: 10 }}>{this.state.firstName} {this.state.lastName}</Text>
                         </View>
                     </LinearGradient>
                     {/* {this.state.loading ?
@@ -284,7 +284,7 @@ class EditBusinessProfile extends React.Component {
                                     onValueChange={(itemValue, itemIndex) =>
                                         this.setState({ language: itemValue })
                                     }>
-                                    <Picker.Item value={this.state.language} label='Select Language' style={{ fontFamily: 'Roboto_Regular' }} />
+                                    <Picker.Item value={this.state.language} label='Select Language' style={{  }} />
                                     {languageList}
                                 </Picker>
                             </View>

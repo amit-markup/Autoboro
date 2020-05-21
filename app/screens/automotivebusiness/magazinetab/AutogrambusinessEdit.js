@@ -174,7 +174,7 @@ async success(CreateDeal){
                 <TouchableOpacity style={{ height: 30, width: 30, position: 'absolute', alignSelf: 'center', marginTop: 195 }} onPress={this.takePicture.bind(this, 'DealPic')}>
                   <Image source={splashImgs} style={{ height: 30, width: 30, borderRadius: 30 }}></Image>
                 </TouchableOpacity>
-                <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>Upload File</Text>
+                <Text style={{ color: '#FFFFFF', alignSelf: 'center',  }}>Upload File</Text>
               </View>
             </LinearGradient>
             <View style={{ width: "90%", borderWidth: 1, marginLeft: 20, marginTop: 20 }}>

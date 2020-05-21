@@ -417,14 +417,14 @@ class Registration2 extends React.Component {
 
     let carPartTypeList = this.state.carPartTypeArr.map((list, index) => {
       return (
-        <Picker.Item label={list.name} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+        <Picker.Item label={list.name} value={list.id} key={index} style={{  }} />
       );
     });
 
     // let businessTypeRadio = this.state.businessTypeArr.map((list, index) => {
     //   return (
     //     <View style={{ flex: 1, alignItems: 'center' }}>
-    //       <Text style={{ fontFamily: 'Roboto_Regular' }}>{list.name}</Text>
+    //       <Text style={{  }}>{list.name}</Text>
     //       <RadioButton value={list.id} color={"#FF0000"} uncheckedColor={'#000000'} />
     //     </View>
     //   );
@@ -453,11 +453,11 @@ class Registration2 extends React.Component {
               </TouchableOpacity>
               <Image source={congratulations} style={{ height: 100, width: 100, alignSelf: 'center' }}></Image>
               <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 18, }}>Congratulations</Text>
-              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12, fontFamily: 'Roboto_Regular' }}>Congratulations for completing your registration</Text>
+              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12,  }}>Congratulations for completing your registration</Text>
               <Button rounded style={{ width: 160, height: 40, alignSelf: 'center', marginTop: 20 }}>
                 <Text style={{ color: '#FFFFFF', width: 160, textAlign: 'center', }}>{this.state.code}</Text>
               </Button>
-              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12, fontFamily: 'Roboto_Regular' }}>Your Generated ID</Text>
+              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12,  }}>Your Generated ID</Text>
             </View>
           </View>
         </Modal>
@@ -510,7 +510,7 @@ class Registration2 extends React.Component {
                     imageProps={{ resizeMode: 'cover' }}
                     showEditButton
                   />
-                  <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>Upload business profile picture</Text>
+                  <Text style={{ color: '#FFFFFF', alignSelf: 'center',  }}>Upload business profile picture</Text>
                 </View>
               </LinearGradient>
 
@@ -518,7 +518,7 @@ class Registration2 extends React.Component {
                 <Input style={styles.input} placeholder='Business Name' onChangeText={(text) => this.setState({ businessName: text })} />
               </Item>
 
-              <Text style={{ color: '#000000', alignSelf: 'center', marginLeft: 10, marginRight: 10, textAlign: 'center', marginTop: 10, fontFamily: 'Roboto_Regular' }}>Please upload a photo of your business location and the logo of your business.</Text>
+              <Text style={{ color: '#000000', alignSelf: 'center', marginLeft: 10, marginRight: 10, textAlign: 'center', marginTop: 10,  }}>Please upload a photo of your business location and the logo of your business.</Text>
 
               {/* <Image source={splashImg}></Image> */}
               {/* <Button block onPress={this.takePicture.bind(this)}>
@@ -563,7 +563,7 @@ class Registration2 extends React.Component {
                   onValueChange={(itemValue, itemIndex) =>
                     this.getBusinessTypeApi(itemValue)
                   }>
-                  <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                  <Picker.Item value='' label='Select Part' style={{  }} />
                   {carPartTypeList}
                 </Picker>
               </View>
@@ -607,7 +607,7 @@ class Registration2 extends React.Component {
                 <Input style={styles.input} placeholder='Business Description' onChangeText={(text) => this.setState({ BusinessDescription: text })} />
               </Item>
 
-              <Text style={{ width: '90%', marginLeft: '5%', marginTop: 15, fontFamily: 'Roboto_Regular' }}>Manager</Text>
+              <Text style={{ width: '90%', marginLeft: '5%', marginTop: 15,  }}>Manager</Text>
 
               <View style={{ width: '90%', marginLeft: '5%', marginRight: '5%', height: 180, backgroundColor: 'white', marginTop: 5, borderRadius: 5 }}>
                 <Avatar
@@ -621,7 +621,7 @@ class Registration2 extends React.Component {
                   imageProps={{ resizeMode: 'cover' }}
                   showEditButton
                 />
-                <Text style={{ color: 'black', alignSelf: 'center', marginTop: 10, fontFamily: 'Roboto_Regular' }}>Upload profile picture</Text>
+                <Text style={{ color: 'black', alignSelf: 'center', marginTop: 10,  }}>Upload profile picture</Text>
               </View>
 
               <View style={{ width: '90%', marginLeft: '5%', marginRight: '5%', height: 45, marginTop: 10, flexDirection: 'row' }}>
@@ -645,7 +645,7 @@ class Registration2 extends React.Component {
               </Item>
 
               <TouchableOpacity style={styles.viewLabel4} onPress={this.showDatePicker.bind(this)}>
-                <Text style={{ color: '#000000', paddingLeft: 10, flex: 3, alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>{this.state.date}</Text>
+                <Text style={{ color: '#000000', paddingLeft: 10, flex: 3, alignSelf: 'center',  }}>{this.state.date}</Text>
                 <Image source={dob} style={{ width: 20, height: 20, marginRight: 10, alignSelf: 'center' }}></Image>
               </TouchableOpacity>
 

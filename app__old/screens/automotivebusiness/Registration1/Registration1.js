@@ -191,7 +191,7 @@ class Registration1 extends React.Component {
 
     let languageList = this.state.languageList.map((list, index) => {
       return (
-        <Picker.Item label={list.title} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+        <Picker.Item label={list.title} value={list.id} key={index} style={{  }} />
       );
     });
     let logoImg = require("../../../../assets/4.png");
@@ -233,7 +233,7 @@ class Registration1 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                     <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Select Language' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Select Language' style={{  }} />
                 {languageList}
               </Picker>
             </View>

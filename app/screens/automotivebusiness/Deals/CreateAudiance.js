@@ -136,7 +136,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Select Gender' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Select Gender' style={{  }} />
                 {/* {languageList} */}
               </Picker>
             </View>
@@ -149,7 +149,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Select Age' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Select Age' style={{  }} />
                 {/* {languageList} */}
               </Picker>
             </View>
@@ -162,7 +162,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Distance' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Distance' style={{  }} />
                 {/* {languageList} */}
               </Picker>
             </View>
@@ -176,7 +176,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Car Type' style={{ fontFamily: 'Roboto_Regular', }} />
+                <Picker.Item value='' label='Car Type' style={{ , }} />
                 {/* {languageList} */}
               </Picker>
             </View>
@@ -190,7 +190,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Age of Car' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Age of Car' style={{  }} />
                 {/* {languageList} */}
               </Picker>
             </View>
@@ -203,7 +203,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Client Type' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Client Type' style={{  }} />
                 {/* {languageList} */}
               </Picker>
             </View>
@@ -216,7 +216,7 @@ class Registration2 extends React.Component {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Payment Type' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Payment Type' style={{  }} />
                 {/* {languageList} */}
               </Picker>
             </View>

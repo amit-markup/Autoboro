@@ -103,7 +103,7 @@ class UploadDealForm extends React.Component {
                             <TouchableOpacity style={{ height: 30, width: 30, position: 'absolute', alignSelf: 'center', marginTop: 195 }} onPress={this.takePicture.bind(this)}>
                                 <Image source={splashImg} style={{ height: 30, width: 30 }}></Image>
                             </TouchableOpacity>
-                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>Upload deal picture</Text>
+                            <Text style={{ color: '#FFFFFF', alignSelf: 'center',  }}>Upload deal picture</Text>
                         </View>
                     </LinearGradient>
 

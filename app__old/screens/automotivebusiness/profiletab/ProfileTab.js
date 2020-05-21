@@ -113,7 +113,7 @@ class ProfileTab extends React.Component {
                         </Button>
                     </Left>
                     <Body style={{ marginLeft: 0 }}>
-                        <Title style={{ fontFamily: 'Roboto_Regular' }}>My Profile</Title>
+                        <Title style={{  }}>My Profile</Title>
                     </Body>
                 </Header>
 
@@ -121,7 +121,7 @@ class ProfileTab extends React.Component {
 
                     {/* <LinearGradient colors={['#d55459', '#a32227', '#96151a']} style={{ width: '100%', height: 180 }}>
                         <Image source={splashImg} style={{ width: 120, height: 120, borderRadius: 120 / 2, alignSelf: 'center', marginTop: 20, }}></Image>
-                        <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10, fontFamily: 'Roboto_Regular' }}>Richard Grant</Text>
+                        <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10,  }}>Richard Grant</Text>
                     </LinearGradient> */}
 
                     {this.state.loading ?
@@ -138,7 +138,7 @@ class ProfileTab extends React.Component {
                                     <TouchableOpacity style={{ height: 30, width: 30, position: 'absolute', marginTop: 100, marginLeft: 240 }} onPress={this.goToEditBusinessProfile.bind(this)}>
                                         <Image source={splashImg} style={{ height: 30, width: 30, borderRadius: 30 }}></Image>
                                     </TouchableOpacity>
-                                    <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular', marginTop: 10 }}>{this.state.firstName + " " + this.state.lastName}</Text>
+                                    <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10 }}>{this.state.firstName + " " + this.state.lastName}</Text>
                                 </View>
                             </LinearGradient>
 

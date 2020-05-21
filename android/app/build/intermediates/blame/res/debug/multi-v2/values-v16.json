@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\webkype\\Desktop\\Autoboro\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\92863b8ee6f3408a88937307901c2022\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\8e047ae16497506243650bc0d398d814\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\57894268ff71feab045b9613bb9b9ba4\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\50a28fe2529d6d7a698ad4329800c8ef\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

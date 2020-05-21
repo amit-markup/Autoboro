@@ -137,7 +137,7 @@ class ProfileTab extends React.Component {
                                         imageProps={{ resizeMode: 'cover' }}
                                         showEditButton
                                     />
-                                    <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular', marginTop: 10 }}>{this.state.firstName} {this.state.lastName}</Text>
+                                    <Text style={{ color: '#FFFFFF', alignSelf: 'center',  marginTop: 10 }}>{this.state.firstName} {this.state.lastName}</Text>
                                 </View>
                             </LinearGradient>
 

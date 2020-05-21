@@ -117,7 +117,7 @@ class DriverProfileTab extends React.Component {
                             <TouchableOpacity style={{ width: 30, height: 30, position: 'absolute', marginLeft: 240, marginTop: 90 }}>
                                 <Image source={splashImg} style={{ width: 30, height: 30 }}></Image>
                             </TouchableOpacity>
-                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10, fontFamily: 'Roboto_Regular' }}>{this.state.firstName+" "+this.state.lastName}</Text>
+                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10,  }}>{this.state.firstName+" "+this.state.lastName}</Text>
                         </View>
                     </LinearGradient>
 

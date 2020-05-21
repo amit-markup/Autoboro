@@ -9,7 +9,6 @@ export default StyleSheet.create({
         fontWeight:'bold',
         textAlign:'left',
         paddingLeft:45,
-        fontFamily: 'Roboto_Regular'
       },
       // labelInput: {
       //   color: '#000000',

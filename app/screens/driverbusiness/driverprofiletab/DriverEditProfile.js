@@ -296,20 +296,20 @@ class DriverRegistration1 extends React.Component {
         };
         let carBrandList = this.state.carBrandList.map((list, index) => {
             return (
-                <Picker.Item label={list.title} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item label={list.title} value={list.id} key={index} style={{  }} />
             );
         });
 
         let carModelList = this.state.carModelList.map((list, index) => {
             return (
-                <Picker.Item label={list.title} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item label={list.title} value={list.id} key={index} style={{  }} />
             );
         });
 
         let languageList = this.state.languageList.map((list, index) => {
             // console.log('languageList', list)
             return (
-                <Picker.Item label={list.name} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item label={list.name} value={list.id} key={index} style={{  }} />
             );
         });
 
@@ -353,7 +353,7 @@ class DriverRegistration1 extends React.Component {
                                 imageProps={{ resizeMode: 'cover' }}
                                 showEditButton
                             />
-                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10, fontFamily: 'Roboto_Regular' }}>{this.state.firstName} {this.state.lastName}</Text>
+                            <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10,  }}>{this.state.firstName} {this.state.lastName}</Text>
                         </View>
                     </LinearGradient>
 
@@ -373,7 +373,7 @@ class DriverRegistration1 extends React.Component {
                                     onValueChange={(itemValue, itemIndex) =>
                                         this.setState({ language: itemValue })
                                     }>
-                                    <Picker.Item value={this.state.language} label='Select Language' style={{ fontFamily: 'Roboto_Regular' }} />
+                                    <Picker.Item value={this.state.language} label='Select Language' style={{  }} />
                                     {languageList}
                                 </Picker>
                             </View> 
@@ -399,7 +399,7 @@ class DriverRegistration1 extends React.Component {
                             </Item>
 
                             <TouchableOpacity style={styles.viewLabel4} onPress={this.showDatePicker.bind(this)}>
-                                <Text style={{ color: '#000000', paddingLeft: 10, flex: 3, alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>{this.state.date}</Text>
+                                <Text style={{ color: '#000000', paddingLeft: 10, flex: 3, alignSelf: 'center',  }}>{this.state.date}</Text>
                                 <Image source={date} style={{ width: 20, height: 20, alignSelf: 'center', marginRight: 10 }}></Image>
                             </TouchableOpacity>
 
@@ -413,7 +413,7 @@ class DriverRegistration1 extends React.Component {
                                         this.getCarBrandsValue(itemValue)}>
                                     {/* <Picker.Item label="" value="java" />
             <Picker.Item label="JavaScript" value="js" /> */}
-                                    <Picker.Item value='' label='Select Car' style={{ fontFamily: 'Roboto_Regular', }} />
+                                    <Picker.Item value='' label='Select Car' style={{  }} />
                                     {carBrandList}
                                 </Picker>
                             </View>
@@ -427,7 +427,7 @@ class DriverRegistration1 extends React.Component {
                                     }>
                                     {/* <Picker.Item label="Java" value="java" />
                 <Picker.Item label="JavaScript" value="js" /> */}
-                                    <Picker.Item value='' label='Select Model' style={{ fontFamily: 'Roboto_Regular' }} />
+                                    <Picker.Item value='' label='Select Model' style={{  }} />
                                     {carModelList}
                                 </Picker>
                             </View>
@@ -439,7 +439,7 @@ class DriverRegistration1 extends React.Component {
 
                             <Item regular style={styles.viewLabel1}>
                                 <Image source={vins} style={{ width: 25, position: 'absolute', marginLeft: 10, marginTop: 10, height: 25, marginRight: 0 }}></Image>
-                                <Input style={{ color: '#000000', fontWeight: 'bold', fontSize: '15', paddingLeft: 45, flex: 3, textAlign: 'left', fontSize: 12, fontFamily: 'Roboto_Regular' }} value={this.state.VINno} placeholder='VIN Number' onChangeText={(text) => this.setState({ VINno: text })} />
+                                <Input style={{ color: '#000000', fontWeight: 'bold', fontSize: '15', paddingLeft: 45, flex: 3, textAlign: 'left', fontSize: 12,  }} value={this.state.VINno} placeholder='VIN Number' onChangeText={(text) => this.setState({ VINno: text })} />
                                 <Image source={vin} style={{ width: 25, height: 25, marginRight: 10 }}></Image>
                             </Item>
 

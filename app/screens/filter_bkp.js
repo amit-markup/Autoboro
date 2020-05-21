@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { getDistance, getPreciseDistance } from 'geolib';
-import { toastr } from '../../Common/Screens/LoginScreen'
+// import { toastr } from '../../Common/Screens/LoginScreen'
 import Geolocation from '@react-native-community/geolocation';
 
 
@@ -427,7 +427,7 @@ export default class TimelineScreen extends Component {
           <StatusBar barStyle="light-content" backgroundColor="#1c4478" />
 
 
-          <Text style={{ alignSelf: 'center', color: 'white', fontSize: 18, fontFamily: 'Roboto-Medium' }}>Businesses</Text>
+          <Text style={{ alignSelf: 'center', color: 'white', fontSize: 18,  }}>Businesses</Text>
 
 
         </Header>
@@ -474,7 +474,7 @@ export default class TimelineScreen extends Component {
             }}>
               <List style={{ borderColor: '#e26d0e', borderWidth: 1, backgroundColor: 'white' }}>
                 <ListItem itemDivider style={{ backgroundColor: '#e26d0e', padding: 0, }}>
-                  <Text style={{ color: 'white', fontSize: 16, fontFamily: 'Roboto-Medium' }}>Sort By Distance</Text>
+                  <Text style={{ color: 'white', fontSize: 16,  }}>Sort By Distance</Text>
                 </ListItem>
 
                 <ListItem style={{ backgroundColor: 'white', padding: 0 }} >
@@ -499,7 +499,7 @@ export default class TimelineScreen extends Component {
 
               <List style={{ borderColor: '#e26d0e', borderWidth: 1, backgroundColor: '#f2dece' }}>
                 <ListItem itemDivider style={{ backgroundColor: '#e26d0e', padding: 0 }}>
-                  <Text style={{ color: 'white', fontSize: 16, fontFamily: 'Roboto-Medium' }}>Sort By Catogory</Text>
+                  <Text style={{ color: 'white', fontSize: 16,  }}>Sort By Catogory</Text>
                 </ListItem>
               </List>
 

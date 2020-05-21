@@ -366,7 +366,7 @@ someFunction() {
               <Input style={styles.input} placeholder='Date' onChangeText={(text) => this.setState({ email: text })} />
             </Item> */}
         <TouchableOpacity style={styles.viewLabel4} onPress={this.showDatePicker.bind(this)}>
-          <Text style={{ color: '#000000', paddingLeft: 9, alignSelf: 'center', fontSize: 12, fontFamily: 'Roboto_Regular' }}>{this.state.date}</Text>
+          <Text style={{ color: '#000000', paddingLeft: 9, alignSelf: 'center', fontSize: 12,  }}>{this.state.date}</Text>
         </TouchableOpacity>
         <Item regular style={styles.viewLabel1}>
           <Input style={styles.input} placeholder='Description' onChangeText={(text) => this.setState({ email: text })} />
@@ -783,7 +783,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     textAlign: 'left',
     paddingLeft: 10,
-    fontFamily: 'Roboto_Regular'
+    
   },
 
 

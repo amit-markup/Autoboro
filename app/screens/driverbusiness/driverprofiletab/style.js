@@ -33,14 +33,12 @@ export default StyleSheet.create({
         fontSize:12,
         textAlign:'left',
         paddingLeft:10,
-        fontFamily: 'Roboto_Regular'
     },
     inputs: {
         fontSize:15,
         fontWeight:'bold',
         textAlign:'left',
         paddingLeft:45,
-        fontFamily: 'Roboto_Regular'
       },
     viewLabel4:{
         height:45, 

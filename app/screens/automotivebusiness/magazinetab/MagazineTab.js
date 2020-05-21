@@ -710,7 +710,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     textAlign: 'left',
     paddingLeft: 10,
-    fontFamily: 'Roboto_Regular'
+   
   },
 
 

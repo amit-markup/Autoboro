@@ -4,58 +4,7 @@
             "outputFile": "C:\\Users\\webkype\\Desktop\\Autoboro\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\74f5bb9d8195efce079bfe2492f5737d\\res\\values-cs\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "207",
-                        "endColumns": "99",
-                        "endOffsets": "306"
-                    },
-                    "to": {
-                        "startLines": "79",
-                        "startColumns": "4",
-                        "startOffsets": "7730",
-                        "endColumns": "103",
-                        "endOffsets": "7829"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\2ef771a10ed44a909f2e9279cc0ed28b\\res\\values-cs\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,541,664,772,984,1109,1247,1373,1607,1716,1911,2037,2257,2438,2532,2625",
-                        "endColumns": "103,191,122,107,211,124,137,125,233,108,194,125,219,180,93,92,110",
-                        "endOffsets": "348,540,663,771,983,1108,1246,1372,1606,1715,1910,2036,2256,2437,2531,2624,2735"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2809,2917,3109,3236,3348,3560,3689,3831,4163,4397,4510,4705,4835,5055,5240,5338,5435",
-                        "endColumns": "107,191,126,111,211,128,141,129,233,112,194,129,219,184,97,96,114",
-                        "endOffsets": "2912,3104,3231,3343,3555,3684,3826,3956,4392,4505,4700,4830,5050,5235,5333,5430,5545"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\6adeef80cf428b111f86da060fb3bfd9\\res\\values-cs\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "190",
-                        "endColumns": "96",
-                        "endOffsets": "286"
-                    },
-                    "to": {
-                        "startLines": "80",
-                        "startColumns": "4",
-                        "startOffsets": "7834",
-                        "endColumns": "100",
-                        "endOffsets": "7930"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\92863b8ee6f3408a88937307901c2022\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\57894268ff71feab045b9613bb9b9ba4\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\d35cac237f1f7083a8d59836a9d92f71\\res\\values-cs\\values.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\9a38bf3bcd14bd690b0ba3176e0b7ec5\\res\\values-cs\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
+                        "startOffsets": "207",
+                        "endColumns": "99",
+                        "endOffsets": "306"
                     },
                     "to": {
-                        "startLines": "37",
+                        "startLines": "79",
                         "startColumns": "4",
-                        "startOffsets": "3961",
-                        "endColumns": "201",
-                        "endOffsets": "4158"
+                        "startOffsets": "7730",
+                        "endColumns": "103",
+                        "endOffsets": "7829"
                     }
                 },
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\50a28fe2529d6d7a698ad4329800c8ef\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\8e047ae16497506243650bc0d398d814\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -106,7 +55,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\3c771d2d4e7aeb851bc5018f98a08b8b\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\8e73b4ebcf71aa05298960c91500724d\\res\\values-cs\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,541,664,772,984,1109,1247,1373,1607,1716,1911,2037,2257,2438,2532,2625",
+                        "endColumns": "103,191,122,107,211,124,137,125,233,108,194,125,219,180,93,92,110",
+                        "endOffsets": "348,540,663,771,983,1108,1246,1372,1606,1715,1910,2036,2256,2437,2531,2624,2735"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2809,2917,3109,3236,3348,3560,3689,3831,4163,4397,4510,4705,4835,5055,5240,5338,5435",
+                        "endColumns": "107,191,126,111,211,128,141,129,233,112,194,129,219,184,97,96,114",
+                        "endOffsets": "2912,3104,3231,3343,3555,3684,3826,3956,4392,4505,4700,4830,5050,5235,5333,5430,5545"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\d2d59265269036668764cb773710bdf5\\res\\values-cs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "96",
+                        "endOffsets": "286"
+                    },
+                    "to": {
+                        "startLines": "80",
+                        "startColumns": "4",
+                        "startOffsets": "7834",
+                        "endColumns": "100",
+                        "endOffsets": "7930"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\98ebe068b466d32fd0c59dc8cdae78a5\\res\\values-cs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3961",
+                        "endColumns": "201",
+                        "endOffsets": "4158"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\eca58f26f5a942cd006942b536ca5ed8\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

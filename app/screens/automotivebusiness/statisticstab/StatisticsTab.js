@@ -77,7 +77,7 @@ class StatisticsTab extends React.Component {
                                 onValueChange={(itemValue, itemIndex) =>
                                     this.getBusinessTypeApi(itemValue)
                                 }>
-                                <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                                <Picker.Item value='' label='Select Part' style={{  }} />
                             </Picker>
                         </View>
                         <View style={{ width: '50%', borderRadius: 5, borderWidth: 1, marginLeft: 5, borderColor: "#ada6a6" }}>
@@ -87,7 +87,7 @@ class StatisticsTab extends React.Component {
                                 onValueChange={(itemValue, itemIndex) =>
                                     this.getBusinessTypeApi(itemValue)
                                 }>
-                                <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                                <Picker.Item value='' label='Select Part' style={{  }} />
                             </Picker>
                         </View>
                     </View>
@@ -136,7 +136,7 @@ class StatisticsTab extends React.Component {
                                 onValueChange={(itemValue, itemIndex) =>
                                     this.getBusinessTypeApi(itemValue)
                                 }>
-                                <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                                <Picker.Item value='' label='Select Part' style={{  }} />
                             </Picker>
                         </View>
                     </View>
@@ -168,7 +168,7 @@ class StatisticsTab extends React.Component {
                                 onValueChange={(itemValue, itemIndex) =>
                                     this.getBusinessTypeApi(itemValue)
                                 }>
-                                <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                                <Picker.Item value='' label='Select Part' style={{  }} />
                             </Picker>
                         </View>
                         <View style={{ width: '50%', borderRadius: 5, borderWidth: 1, marginLeft: 5, borderColor: "#ada6a6" }}>
@@ -178,7 +178,7 @@ class StatisticsTab extends React.Component {
                                 onValueChange={(itemValue, itemIndex) =>
                                     this.getBusinessTypeApi(itemValue)
                                 }>
-                                <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                                <Picker.Item value='' label='Select Part' style={{  }} />
                             </Picker>
                         </View>
                     </View>
@@ -190,7 +190,7 @@ class StatisticsTab extends React.Component {
                                 onValueChange={(itemValue, itemIndex) =>
                                     this.getBusinessTypeApi(itemValue)
                                 }>
-                                <Picker.Item value='' label='Select Part' style={{ fontFamily: 'Roboto_Regular' }} />
+                                <Picker.Item value='' label='Select Part' style={{  }} />
                             </Picker>
                         </View>
                     </View>

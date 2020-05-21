@@ -67,9 +67,9 @@ export default class Album extends Component {
 createDeals(){
   this.props.navigation.navigate('CreateDeals')
 }
-  goBack() {
-    this.props.navigation.navigate('ProfileTab');
-  }
+  // goBack() {
+  //   this.props.navigation.navigate('ProfileTab');
+  // }
 
   onRefresh() {
     this.getDeal()
@@ -78,7 +78,7 @@ createDeals(){
     return (
       <View style={styles.container}>
         <Header
-          leftComponent={<Button transparent onPress={this.goBack.bind(this)}><Image source={require('../../../../assets/images/next-arrow.png')} style={{ width: 25, height: 25, marginBottom: 25, transform: [{ rotate: '185deg' }] }} /></Button>}
+          leftComponent={<Button transparent><Image source={require('../../../../assets/images/next-arrow.png')} style={{ width: 25, height: 25, marginBottom: 25, transform: [{ rotate: '185deg' }] }} /></Button>}
           centerComponent={{ text: 'Deals', style: { color: 'black', marginBottom: 25, fontSize: 16 } }}
           // rightComponent={
           //   <View style={{ flexDirection: 'row', }}>

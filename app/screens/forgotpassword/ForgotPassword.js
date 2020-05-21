@@ -67,7 +67,7 @@ class ForgotPassord extends React.Component {
             <ScrollView style={styles.wrapper}>
                 <View style={styles.introView}>
                     <Image style={styles.imgLogo} source={logoImg}></Image>
-                    <Text style={{ marginTop: 10, color: '#000000', fontSize: 18, alignSelf: 'center', color: '#FF0000', fontFamily: 'Roboto_Bold' }}>FORGOT PASSWORD</Text>
+                    <Text style={{ marginTop: 10, color: '#000000', fontSize: 18, alignSelf: 'center', color: '#FF0000',  }}>FORGOT PASSWORD</Text>
                     <Item regular style={styles.viewLabel1}>
                         <Input style={styles.input} placeholder='Email Address' onChangeText={(text) => this.setState({ email: text })} />
                     </Item>
@@ -80,9 +80,9 @@ class ForgotPassord extends React.Component {
                                 size="large"
                                 style={styles.activityIndicator} />
                             :
-                            <Text style={{ color: '#FFFFFF', fontFamily: 'Roboto_Bold' }}>SUBMIT</Text>}
+                            <Text style={{ color: '#FFFFFF',  }}>SUBMIT</Text>}
                     </Button>
-                    <Text style={{ marginTop: 20, color: '#000000', fontSize: 10, alignSelf: 'center', color: '#000000', fontFamily: 'Roboto_Regular' }}>check your email for password reset instructions</Text>
+                    <Text style={{ marginTop: 20, color: '#000000', fontSize: 10, alignSelf: 'center', color: '#000000', }}>check your email for password reset instructions</Text>
                     <Image style={{ width: '100%', margin: 15, height: 200, resizeMode: 'contain' }} source={logoImgs}></Image>
                 </View>
                 <Toast ref="toast" />

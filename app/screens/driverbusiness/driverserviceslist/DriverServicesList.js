@@ -333,7 +333,7 @@ class DriverServicesList extends React.Component {
                         }}>
                             <List style={{ borderColor: '#e26d0e', borderWidth: 1, backgroundColor: 'white' }}>
                                 <ListItem itemDivider style={{ backgroundColor: '#e26d0e', padding: 0, }}>
-                                    <Text style={{ color: 'white', fontSize: 16, fontFamily: 'Roboto-Medium' }}>Sort By Distance</Text>
+                                    <Text style={{ color: 'white', fontSize: 16, }}>Sort By Distance</Text>
                                 </ListItem>
 
                                 <ListItem style={{ backgroundColor: 'white', padding: 0 }} >

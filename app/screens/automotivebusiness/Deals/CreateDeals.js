@@ -161,7 +161,7 @@ class Registration2 extends React.Component {
                 <TouchableOpacity style={{ height: 30, width: 30, position: 'absolute', alignSelf: 'center', marginTop: 195 }} onPress={this.takePicture.bind(this, 'DealPic')}>
                   <Image source={splashImgs} style={{ height: 30, width: 30, borderRadius: 30 }}></Image>
                 </TouchableOpacity>
-                <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>Upload Deal Picture</Text>
+                <Text style={{ color: '#FFFFFF', alignSelf: 'center',  }}>Upload Deal Picture</Text>
               </View>
             </LinearGradient>
             <Item regular style={[styles.viewLabel1, { marginTop: 20 }]}>
@@ -178,7 +178,7 @@ class Registration2 extends React.Component {
             </View>
 
             <View style={{ width: "90%", borderWidth: 0, marginLeft: 20, marginTop: 20 }}>
-            <Text style={{ color: '#333', fontSize: 16, fontFamily: 'Roboto-Medium', marginBottom:10 }}>Deal Radius</Text>
+            <Text style={{ color: '#333', fontSize: 16, marginBottom:10 }}>Deal Radius</Text>
             <View style={{flexDirection:'row'}}>
             <Slider
                     step={1}

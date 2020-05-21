@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\webkype\\Desktop\\Autoboro\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\92863b8ee6f3408a88937307901c2022\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\57894268ff71feab045b9613bb9b9ba4\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\50a28fe2529d6d7a698ad4329800c8ef\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\8e047ae16497506243650bc0d398d814\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\3c771d2d4e7aeb851bc5018f98a08b8b\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\webkype\\.gradle\\caches\\transforms-2\\files-2.1\\eca58f26f5a942cd006942b536ca5ed8\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

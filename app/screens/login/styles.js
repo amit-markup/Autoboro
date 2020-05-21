@@ -40,7 +40,6 @@ export default StyleSheet.create({
         fontSize:12,
         textAlign:'left',
         paddingLeft:10,
-        fontFamily: 'Roboto_Regular'
       },
       // labelInput: {
       //   color: '#000000',
@@ -76,7 +75,6 @@ export default StyleSheet.create({
         fontSize:10,
         alignSelf:'flex-end',
         marginRight:'10%',
-        fontFamily: 'Roboto_Regular'
       },
       viewLogin:{
         height:50, 

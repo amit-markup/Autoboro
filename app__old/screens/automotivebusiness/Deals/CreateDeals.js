@@ -114,7 +114,7 @@ class Registration2 extends React.Component {
                   </Button>
                 </Left>
                 <Body style={{paddingLeft:40}}>
-                  <Title style={{fontFamily: 'Roboto_Regular'}}>Create Deals</Title>
+                  <Title style={{}}>Create Deals</Title>
                 </Body>
               </Header>
               <LinearGradient colors={['#d55459', '#a32227', '#96151a']} style={{ height: 270, width: '100%', backgroundColor: '#FF0000' }}>
@@ -123,7 +123,7 @@ class Registration2 extends React.Component {
                   <TouchableOpacity style={{ height: 30, width: 30, position: 'absolute', alignSelf: 'center', marginTop: 195 }} onPress={this.takePicture.bind(this, 'businessImage')}>
                     <Image source={splashImg} style={{ height: 30, width: 30, borderRadius:30 }}></Image>
                   </TouchableOpacity>
-                  <Text style={{ color: '#FFFFFF', alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>Upload Deal Picture</Text>
+                  <Text style={{ color: '#FFFFFF', alignSelf: 'center',  }}>Upload Deal Picture</Text>
                 </View>
               </LinearGradient>
 
@@ -139,7 +139,7 @@ class Registration2 extends React.Component {
                     }>
                     {/* <Picker.Item label="Java" value="java" />
                         <Picker.Item label="JavaScript" value="js" /> */}
-                    <Picker.Item value='' label='Select Language' style={{ fontFamily: 'Roboto_Regular' }} />
+                    <Picker.Item value='' label='Select Language' style={{  }} />
                     {/* {languageList} */}
                 </Picker>
                 </View>

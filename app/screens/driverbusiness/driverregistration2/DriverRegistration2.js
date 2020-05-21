@@ -309,13 +309,13 @@ callLocation(that) {
     };
     let carBrandList = this.state.carBrandList.map((list, index) => {
       return (
-        <Picker.Item label={list.title} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+        <Picker.Item label={list.title} value={list.id} key={index} style={{  }} />
       );
     });
 
     let carModelList = this.state.carModelList.map((list, index) => {
       return (
-        <Picker.Item label={list.title} value={list.id} key={index} style={{ fontFamily: 'Roboto_Regular' }} />
+        <Picker.Item label={list.title} value={list.id} key={index} style={{  }} />
       );
     });
 
@@ -343,11 +343,11 @@ callLocation(that) {
               </TouchableOpacity>
               <Image source={congratulations} style={{ height: 100, width: 100, alignSelf: 'center' }}></Image>
               <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 18, }}>Congratulations</Text>
-              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12, fontFamily: 'Roboto_Regular' }}>Congratulations for completing your registration</Text>
+              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12,  }}>Congratulations for completing your registration</Text>
               <Button rounded style={{ width: 160, height: 40, alignSelf: 'center', marginTop: 20 }}>
                 <Text style={{ color: '#FFFFFF', width: 160, textAlign: 'center', }}>{this.state.code}</Text>
               </Button>
-              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12, fontFamily: 'Roboto_Regular' }}>Your Generated ID</Text>
+              <Text style={{ alignSelf: 'center', color: '#000000', marginTop: 10, fontSize: 12,  }}>Your Generated ID</Text>
             </View>
           </View>
         </Modal>
@@ -363,12 +363,12 @@ callLocation(that) {
             </Button>
           </Left>
           <Body>
-            <Title style={{ fontFamily: 'Roboto_Regular' }}>Driver Registration</Title>
+            <Title style={{  }}>Driver Registration</Title>
           </Body>
         </Header>
         <LinearGradient colors={['#d55459', '#a32227', '#96151a']} style={{ width: '100%', height: 180 }}>
           <Image source={driverImage} style={{ width: 120, height: 120, borderRadius: 120 / 2, alignSelf: 'center', marginTop: 20, }}></Image>
-          <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10, fontFamily: 'Roboto_Regular' }}>{this.state.driverFirstName + " " + this.state.driverLastName}</Text>
+          <Text style={{ color: '#FFFFFF', alignSelf: 'center', marginTop: 10,  }}>{this.state.driverFirstName + " " + this.state.driverLastName}</Text>
         </LinearGradient>
         {this.state.loading ?
           <ActivityIndicator
@@ -388,7 +388,7 @@ callLocation(that) {
                   this.getCarBrandsValue(itemValue)}>
                 {/* <Picker.Item label="" value="java" />
             <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Select Car' style={{ fontFamily: 'Roboto_Regular', }} />
+                <Picker.Item value='' label='Select Car' style={{  }} />
                 {carBrandList}
               </Picker>
             </View>
@@ -402,7 +402,7 @@ callLocation(that) {
                 }>
                 {/* <Picker.Item label="Java" value="java" />
                 <Picker.Item label="JavaScript" value="js" /> */}
-                <Picker.Item value='' label='Select Model' style={{ fontFamily: 'Roboto_Regular' }} />
+                <Picker.Item value='' label='Select Model' style={{  }} />
                 {carModelList}
               </Picker>
             </View>
@@ -412,12 +412,12 @@ callLocation(that) {
             </Item>
             <TouchableOpacity style={styles.viewLabel4} onPress={this.showDatePicker.bind(this)}>
               <Image source={years} style={{ width: 25, position: 'absolute', marginLeft: 10, marginTop: 10, height: 25, marginRight: 0 }}></Image>
-              <Text style={{ color: '#000000', paddingLeft: 45, alignSelf: 'center', fontSize: 16, fontFamily: 'Roboto_Regular' }}>{this.state.date}</Text>
+              <Text style={{ color: '#000000', paddingLeft: 45, alignSelf: 'center', fontSize: 16,  }}>{this.state.date}</Text>
               {/* <Image source={splashImg} style={{ width: 30, height: 30, marginRight: 10, alignSelf: 'center' }}></Image> */}
             </TouchableOpacity>
             <Item regular style={styles.viewLabel1}>
               <Image source={vins} style={{ width: 25, position: 'absolute', marginLeft: 10, marginTop: 10, height: 25, marginRight: 0 }}></Image>
-              <Input style={{ color: '#000000', fontWeight: 'bold', fontSize: '15', paddingLeft: 45, flex: 3, textAlign: 'left', fontSize: 12, fontFamily: 'Roboto_Regular' }} placeholder='VIN Number' onChangeText={(text) => this.setState({ VINno: text })} />
+              <Input style={{ color: '#000000', fontWeight: 'bold', fontSize: '15', paddingLeft: 45, flex: 3, textAlign: 'left', fontSize: 12,  }} placeholder='VIN Number' onChangeText={(text) => this.setState({ VINno: text })} />
               <Image source={vin} style={{ width: 25, height: 25, marginRight: 10 }}></Image>
             </Item>
             <Button block style={{ width: '90%', marginLeft: '5%', marginRight: '5%', marginTop: 30, backgroundColor: '#f5900e' }} onPress={this.driverRegister.bind(this)}>

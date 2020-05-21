@@ -149,7 +149,7 @@ export default class EventsView extends Component {
                     <Input style={styles.input} value={this.state.description} placeholder='Job Description' onChangeText={(text) => this.setState({ description: text })} />
                     </Item>
                     <TouchableOpacity style={styles.viewLabel4} onPress={this.showDatePicker.bind(this)}>
-                        <Text style={{ color: '#000000', paddingLeft: 10, flex: 3, alignSelf: 'center', fontFamily: 'Roboto_Regular' }}>{this.state.date}</Text>
+                        <Text style={{ color: '#000000', paddingLeft: 10, flex: 3, alignSelf: 'center',  }}>{this.state.date}</Text>
                         <Image source={dob} style={{ width: 20, height: 20, marginRight: 10, alignSelf: 'center' }}></Image>
                     </TouchableOpacity>
 
@@ -225,6 +225,6 @@ const styles = StyleSheet.create({
         fontSize: 12,
         textAlign: 'left',
         paddingLeft: 10,
-        fontFamily: 'Roboto_Regular'
+        
       },
 });

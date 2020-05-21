@@ -31,7 +31,7 @@ export default StyleSheet.create({
         fontSize:12,
         textAlign:'left',
         paddingLeft:10,
-        fontFamily: 'Roboto_Regular',
+        
     },
     viewLabel2:{
         height:137, 
