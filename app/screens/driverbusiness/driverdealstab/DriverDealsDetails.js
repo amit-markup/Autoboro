@@ -18,6 +18,9 @@ let deviceWidth = Dimensions.get('window').width
 import { Header } from 'react-native-elements';
 import Geolocation from '@react-native-community/geolocation';
 import AsyncStorage from '@react-native-community/async-storage';
+import RNPaypal from 'react-native-paypal-lib';
+import getDirections from 'react-native-google-maps-directions'
+import { captureScreen } from "react-native-view-shot";
 
 export default class Blog extends Component {
 
@@ -27,16 +30,20 @@ export default class Blog extends Component {
       dataSource: [],
       currentLatitude: '',
       currentLongitude: '',
-      loading:true
+      loading:true,
+      imageURI : ''
     };
   }
 
-
   componentDidMount() {
     this.getAdreess();
-    this._interval = setTimeout(() => {
+    // this._interval = setTimeout(() => {
+    //   this.getDeal();
+    // }, 18000);
+
+    setInterval(() => {
       this.getDeal();
-    }, 16000);
+     }, 1000);
   }
 
 
@@ -132,8 +139,73 @@ export default class Blog extends Component {
       }).catch((error) => {
         console.error(error);
       })
-
   }
+
+  paypal(price){
+    var DealerId = price.id
+    var DealPic = price.DealPic
+    var DealPrice = parseFloat(price.DealPrice)
+    RNPaypal.paymentRequest({
+        clientId: 'AeDxJRSZUlhH-WlPL0G_yPyq873sGBksH-Uqx-YF7qhQMlZsExVA7mFUbWrafew2ljJIjWWdODRIc_Pi',
+        environment: RNPaypal.ENVIRONMENT.NO_NETWORK,
+        intent: RNPaypal.INTENT.SALE,
+        price: DealPrice,
+        currency: 'USD',
+        description: `testing`,
+        acceptCreditCards: true
+    }).then(response => {
+        console.log("responseresponseresponse",response)
+        this.props.navigation.navigate("ClaimDriver", {did: DealerId, amount: price.DealPrice, DealPic:DealPic});
+        
+    }).catch(err => {
+        console.log(err.message)
+    })
+}
+
+
+
+async handleGetDirections() {
+  var profile = JSON.parse(await AsyncStorage.getItem("profile"));
+  var Latitude = profile.Latitude
+  var Longitude = profile.Longitude
+  console.log(profile)
+  const data = {
+      source: {
+          latitude: this.state.currentLatitude,
+          longitude: this.state.currentLongitude
+      },
+      destination: {
+          latitude: Latitude,
+          longitude: Longitude
+      },
+      params: [
+          {
+              key: "travelmode",
+              value: "driving"        // may be "walking", "bicycling" or "transit" as well
+          },
+          {
+              key: "dir_action",
+              value: "navigate"       // this instantly initializes navigation using the given travel mode
+          }
+      ],
+      waypoints: [
+          {
+              latitude: -33.8600025,
+              longitude: 18.697452
+          },
+          {
+              latitude: -33.8600026,
+              longitude: 18.697453
+          },
+          {
+              latitude: -33.8600036,
+              longitude: 18.697493
+          }
+      ]
+  }
+
+  getDirections(data)
+}
 
   goBack() {
     this.props.navigation.goBack();
@@ -142,7 +214,6 @@ export default class Blog extends Component {
   render() {
     return (
       <ScrollView style={styles.container}>
-
         <Header
           leftComponent={<Button transparent onPress={this.goBack.bind(this)}><Image source={require('../../../../assets/images/next-arrow.png')} style={{ width: 21, height: 21, marginBottom: 25, transform: [{ rotate: '185deg' }] }} /></Button>}
           centerComponent={{ text: 'Deal Details', style: { color: '#333', marginBottom: 25, fontSize: 16 } }}
@@ -153,7 +224,6 @@ export default class Blog extends Component {
           }}
         />
         {this.state.loading ?
-
         <ActivityIndicator
           animating={this.state.loading}
           color='#FF0000'
@@ -191,11 +261,11 @@ export default class Blog extends Component {
           </View>
         </View>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 20 }}>
-          <TouchableOpacity onPress={() => this.props.navigation.navigate('ClaimRewardDriver')} style={{ flexDirection: 'row', width: 165, borderRadius: 4, backgroundColor: '#51bc12', padding: 15, alignSelf: 'center', alignContent: 'center', alignItems: 'center' }}>
+          <TouchableOpacity onPress={() => this.paypal(this.state.dataSource)} style={{ flexDirection: 'row', width: 165, borderRadius: 4, backgroundColor: '#51bc12', padding: 15, alignSelf: 'center', alignContent: 'center', alignItems: 'center' }}>
             <Image source={require('../../../../assets/images/Claim-Now.png')} style={{ width: 19, height: 19 }} />
             <Text style={{ fontWeight: 'bold', fontSize: 15, marginLeft: 4, color: 'white' }}>CLAIM NOW</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={{ flexDirection: 'row', width: 165, borderRadius: 4, backgroundColor: '#c2c2c2', padding: 15, alignSelf: 'center', alignContent: 'center', alignItems: 'center' }}>
+          <TouchableOpacity onPress={() => this.handleGetDirections()} style={{ flexDirection: 'row', width: 165, borderRadius: 4, backgroundColor: '#c2c2c2', padding: 15, alignSelf: 'center', alignContent: 'center', alignItems: 'center' }}>
             <Image source={require('../../../../assets/images/Get-Directions.png')} style={{ width: 19, height: 19 }} />
             <Text style={{ marginLeft: 4, fontSize: 15, fontWeight: 'bold' }}>GET DIRECTION</Text>
           </TouchableOpacity>

@@ -37,9 +37,13 @@ class DriverServicesList extends React.Component {
 
   componentDidMount() {
     this.getAdreess();
+    this.getDeal();
     this._interval = setTimeout(() => {
       this.getDeal();
-    }, 16000);
+    }, 18000);
+    // setInterval(() => {
+    //   this.getDeal();
+    //  }, 4000);
   }
 
 
@@ -130,9 +134,9 @@ class DriverServicesList extends React.Component {
       }
     ).then((response) => response.json())
       .then((responseJson) => {
-        this.setState({ loading: false })
         console.log(responseJson)
         if (responseJson.status === 'Success') {
+          this.setState({ loading: false })
           this.setState({ dataSource: responseJson['data']['Listing'] })
         }
       }).catch((error) => {
